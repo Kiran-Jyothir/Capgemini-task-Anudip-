@@ -18,6 +18,8 @@ public class Solution {
         	arr[i] = src.nextInt();
         }
         
+        src.close();
+        
         System.out.println("array elements before reverse");
         System.out.println(Arrays.toString(arr));
        
